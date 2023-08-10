@@ -1,0 +1,361 @@
+/* reboot */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+.page__container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header {
+    padding: 30px 0 35px 0;
+    background-color: #E6F5EF;
+    position: relative;
+}
+
+.header__titles {
+    margin-left: 56px;
+}
+
+.header__title-main {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 47px;
+}
+
+.header__title-mini {
+    margin-top: 19px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    opacity: .7;
+}
+
+.header__tabs {
+    display: flex;
+    gap: 66px;
+    margin-left: 53.09px;
+    margin-top: 23px;
+}
+
+.header__tab {
+    width: 211.09px;
+    height: 45.32px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgba(0, 185, 86, 0.20);
+    /* Текст кнопки */
+    font-weight: 400;
+    font-size: 17.444px;
+    line-height: 23.259px;
+    color: #168457;
+}
+
+.header__tab-active {
+    background-color: #00B956;
+    /* Текст кнопки */
+    color: #fff;
+}
+
+.header__cards {
+    margin-left: 53.02px;
+    margin-top: 18.92px;
+    display: flex;
+    gap: 13.89px;
+}
+
+.header__card {
+    width: 318.729px;
+    height: 110.541px;
+    background-color: #fff;
+    padding-left: 21.14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header__card:nth-child(1),
+.header__card:nth-child(4) {
+    padding-right: 7.75px;
+}
+
+.header__card:nth-child(2),
+.header__card:nth-child(3) {
+    padding-right: 8.18px;
+}
+
+.header__card-text {
+    position: absolute;
+    left: 102.84px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15.1px;
+}
+
+.header__card:nth-child(1) .header__card-text {
+    left: 93.59px;
+}
+
+.header__card-icon {
+    width: 43.664px;
+    height: 43.664px;
+}
+
+.img-gift {
+    width: 93.312px;
+    height: 93.313px;
+}
+
+.img__procent {
+    width: 97.489px;
+    height: 92.117px;
+}
+
+.header__card-icon img,
+.header__card-img img {
+    width: inherit;
+    height: inherit;
+}
+
+.header__cat {
+    position: absolute;
+    right: 125px;
+    top: 61px;
+    z-index: 0;
+}
+
+/* main */
+.main {
+    padding: 24px 0 70px 0;
+}
+
+.main__title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 42px;
+    margin-left: 59px;
+}
+
+.main__tabs {
+    margin-top: 26px;
+    width: 100%;
+    height: 47px;
+    padding-left: 58px;
+    border-top: 1px solid #D1D8D6;
+    display: flex;
+    align-items: center;
+}
+
+.main__tab {
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8F9399;
+    cursor: pointer;
+}
+
+.main__tab:nth-child(2) {
+    margin-left: 26.92px;
+}
+
+.main__tab:nth-child(3) {
+    margin-left: 28.3px;
+}
+
+.main__tab:nth-child(4) {
+    margin-left: 27.36px;
+}
+
+.cards__block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__block-1 {
+    height: 365px;
+    margin-top: 22.5px;
+    padding: 0 134px 0 59px;
+    align-items: end;
+}
+
+.cards__block-2 {
+    padding: 0 123px 0 71px;
+    margin-top: 26.5px;
+}
+
+.card {
+    width: 370px;
+    height: 357px;
+    border-radius: 5px;
+    border: 1px solid #EEF0F6;
+    background: #FFF;
+    box-shadow: 0px 14px 60px -20px rgba(108, 129, 171, 0.30);
+    padding: 24px 23px 28px 23px;
+}
+
+.card__button {
+    width: 150px;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid #00898A;
+    box-shadow: 0px -5px 60px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    /* Текст кнопки */
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14.45px;
+    text-transform: uppercase;
+    color: #00898A;
+}
+
+.card__title {
+    margin-top: 16px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28.9px;
+    text-transform: uppercase;
+    color: #1A465F;
+}
+
+.card__descr {
+    margin-top: 11px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.23px;
+    color: #1A465F;
+}
+
+.card__list {
+    margin-top: 13px;
+}
+
+.card__list-item {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18.79px;
+    color: #1A465F;
+    list-style: none;
+    margin-left: 20px;
+    position: relative;
+}
+
+.card__list-item::before {
+    content: '';
+    position: absolute;
+    background: url('../img/main/check-mark.svg');
+    width: 16px;
+    height: 16px;
+    left: -20px;
+}
+
+.card__button-more {
+    margin-top: 28px;
+    width: 322px;
+    height: 41px;
+    border-radius: 5px;
+    border: 1px solid #168457;
+    cursor: pointer;
+    transition: .4s ease;
+    /* Текст кнопки */
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #168457;
+    text-transform: uppercase;
+}
+
+.card__button-more:hover {
+    background: #168457;
+    color: #fff;
+}
+
+.card__button__wrapper {
+    display: flex;
+    gap: 6px;
+}
+
+.card__button-mini {
+    width: 76px;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid #1A465F;
+    box-shadow: 0px -5px 60px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    /* Текст кнопки */
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    color: #1A465F;
+
+}
+
+.card__button-mini-active,
+.card__button-mini:hover {
+    border: 1px solid #00898A;
+    color: #00898A;
+}
+
+.card-3 {
+    position: relative;
+    top: -7px;
+    width: 373px;
+    height: 357px;
+    padding: 24px 18px 28px 24px;
+}
+
+.card__mini {
+    height: 150px;
+    border-radius: 6.25px;
+    background: #FFF;
+    box-shadow: 0px 0.1953125px 1.5625px 0.78125px rgba(0, 0, 0, 0.07);
+    padding: 17px 50px 27px 12.5px;
+}
+
+.card__mini-right {
+    padding: 17px 23px 27px 12.5px;
+}
+
+.card__mini-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14.844px;
+    line-height: 21.875px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.card__mini-descr {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 10.938px;
+    line-height: 18.75px;
+    color: #333;
+}
+
+.button-green {
+    border: 1px solid #168457;
+    color: #168457;
+}

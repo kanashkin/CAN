@@ -3,9 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Jost:wght@400;500;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <title>CAN</title>
 </head>
 <body>
-    
+    <div class="page__container">
+        <header class="header">
+            <div class="header__titles">
+                <h1 class="header__title-main">Стоимость услуг Центрального Агентства Недвижимости</h1>
+                <h2 class="header__title-mini">Платите только за результат</h2>
+            </div>
+            <div class="header__tabs">
+                <button class="header__tab header__tab-active">Продать</button>
+                <button class="header__tab">Купить</button>
+                <button class="header__tab">Сдать</button>
+                <button class="header__tab">Снять</button>
+                <button class="header__tab">Ипотека</button>
+            </div>
+            <div class="header__cards">
+                <div class="header__card">
+                    <div class="header__card-icon">
+                        <img src="img/header/like.svg" alt="like icon">
+                    </div>
+                    <div class="header__card-text">Одобрение <br> ипотеки</div>
+                    <div class="header__card-img img-gift">
+                        <img src="img/header/gift.svg" alt="gift icon">
+                    </div>
+                </div>
+                <div class="header__card">
+                    <div class="header__card-icon">
+                        <img src="img/header/procent-mini.svg" alt="procent icon">
+                    </div>
+                    <div class="header__card-text">Скидка льготным <br> категориям граждам</div>
+                    <div class="header__card-img img-procent">
+                        <img src="img/header/procent.svg" alt="procent icon">
+                    </div>
+                </div>
+                <div class="header__card">
+                    <div class="header__card-icon">
+                        <img src="img/header/age.svg" alt="age icon">
+                    </div>
+                    <div class="header__card-text">Скидки <br> пенсионерам</div>
+                    <div class="header__card-img img-procent">
+                        <img src="img/header/procent.svg" alt="procent icon">
+                    </div>
+                </div>
+                <div class="header__card">
+                    <div class="header__card-icon">
+                        <img src="img/header/packages.svg" alt="packages icon">
+                    </div>
+                    <div class="header__card-text">Скидка на <br> повторную покупку</div>
+                    <div class="header__card-img img-gift">
+                        <img src="img/header/gift.svg" alt="gift icon">
+                    </div>
+                </div>
+                
+            </div>
+            <img class="header__cat" src="img/header/cat.png" alt="cat img">
+        </header>
+        <div class="main">
+            <h2 class="main__title">Продать</h2>
+            <ul class="main__tabs">
+                <li class="main__tab">Вторичная</li>
+                <li class="main__tab">Первичная</li>
+                <li class="main__tab">Загородная</li>
+                <li class="main__tab">Коммерческая</li>
+            </ul>
+            <div class="cards__block cards__block-1">
+                <div class="card">
+                    <button class="card__button">пакетные услуги</button>
+                    <h2 class="card__title">Продажа дома с участком</h2>
+                    <p class="card__descr">
+                        Воспользуйтесь комплексным решением по продаже дома в Ленинградской области
+                    </p>
+                    <ul class="card__list">
+                        <li class="card__list-item">Выезд и просмотр недвижимости</li>
+                        <li class="card__list-item">Оценка рыночной стоимости объекта</li>
+                        <li class="card__list-item">Полное юридическое сопровождение</li>
+                        <li class="card__list-item">Запуск маркетинговой кампании </li>
+                        <li class="card__list-item">Организация и сопровождение сделки </li>
+                    </ul>
+                    <button class="card__button-more">подробнее</button>
+                </div>
+                <div class="card">
+                    <div class="card__button__wrapper">
+                        <button class="card__button-mini card__button-mini-active">дом</button>
+                        <button class="card__button-mini">участок</button>
+                    </div>
+                    <h2 class="card__title">Оценка недвижимости</h2>
+                    <p class="card__descr" style="margin-top: 13px;">
+                        Честно оцениваем реальную рыночную стоимость загородной недвижимости
+                    </p>
+                    <ul class="card__list" style="margin-top: 32px;">
+                        <li class="card__list-item">Консультация агента по недвижимости</li>
+                        <li class="card__list-item">Аудит загородного дома или участка</li>
+                        <li class="card__list-item">Отчет о проведенной оценке </li>
+                    </ul>
+                    <button class="card__button-more" style="margin-top: 44px;">подробнее</button>
+                </div>
+                <div class="card card-3">
+                    <button class="card__button">пакетные услуги</button>
+                    <h2 class="card__title" style="white-space: nowrap; line-height: 26px;">Юридическое сопровождение </h2>
+                    <p class="card__descr" style="margin-top: 14px;">
+                        Воспользуйтесь комплексным решением по продаже дома в Ленинградской области
+                    </p>
+                    <ul class="card__list">
+                        <li class="card__list-item">Проводим полную юридическую проверку </li>
+                        <li class="card__list-item">Предоставляем подробный отчет с заключением</li>
+                        <li class="card__list-item">Помогаем оформить сделку с встречной покупкой</li>
+                        <li class="card__list-item">Отслеживаем готовность документов в Росреестре</li>
+                        <li class="card__list-item">Проверим отсутствие долгов и составим актприема-передачи</li>
+                    </ul>
+                    <button class="card__button-more" style="margin-top: 9px;">подробнее</button>
+                </div>
+            </div>
+            <div class="cards__block cards__block-2">
+                <div class="card__block">
+                    <div class="card__mini" style="margin-top: 2px; width: 364.586px;">
+                        <div class="card__mini-title">Trade in</div>
+                        <div class="card__mini-descr" style="margin-top: 10.94px;">Обеняем вашу старую квартиру на новую бесплатно</div>
+                        <button class="card__button-more" style="margin-top: 16.12px;">подробнее</button>
+                    </div>
+                    <div class="card__mini" style="margin-top: 43px; width: 364.586px;">
+                        <div class="card__mini-title">ПРОДАЖА УЧАСТКА</div>
+                        <div class="card__mini-descr" style="margin-top: 11.37px;">Воспользуйтесь услугой продажа участка в ЛО от ЦАН</div>
+                        <button class="card__button-more" style="margin-top: 16.12px;">подробнее</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__button__wrapper" style="gap: 5px;">
+                        <button class="card__button button-green" style="width: 150px;">пакетные услуги</button>
+                        <button class="card__button button-green" style="width: 121px;">пакетные услуги</button>
+                    </div>
+                    <h2 class="card__title" style="white-space: nowrap;">Продажа квартиры премиум</h2>
+                    <p class="card__descr" style="margin-top: 14px;">
+                        Воспользуйтесь комплексным решением по продаже дома в Ленинградской области
+                    </p>
+                    <ul class="card__list">
+                        <li class="card__list-item">Профессиональная фотосъемка</li>
+                        <li class="card__list-item">Объявление в ТОПе на рекламных площадках</li>
+                        <li class="card__list-item">Брендирование объекта</li>
+                        <li class="card__list-item">Персональный менеджер</li>
+                    </ul>
+                    <button class="card__button-more" style="margin-top: 47px;">подробнее</button>
+                </div>
+                <div class="card__block">
+                    <div class="card__mini card__mini-right" style="margin-top: 2px; width: 378px;">
+                        <div class="card__mini-title">ПРОДАЖА КВАРТИРЫ В <br> НОВОСТРОЙКЕ ПО ПЕРЕУСТУПКЕ</div>
+                        <div class="card__mini-descr" style="margin-top: 4.5px;">Подберем объект, проверим документы и организуем сделку </div>
+                        <button class="card__button-more" style="margin-top: 5.13px;">подробнее</button>
+                    </div>
+                    <div class="card__mini card__mini-right" style="margin-top: 43px; width: 378px;">
+                        <div class="card__mini-title">ПРОДАЖА КВАРТИРЫ СТАНДАРТ</div>
+                        <div class="card__mini-descr" style="margin-top: 4.5px; color: #1A465F;">Воспользуйтесь комплексным решением по продаже квартиры в Санкт-Петербурге и ЛО</div>
+                        <button class="card__button-more" style="margin-top: 5.13px;">подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
 </body>
 </html>
