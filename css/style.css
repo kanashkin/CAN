@@ -414,3 +414,113 @@ button {
     top: 33px;
     right: 121px;
 }
+
+/* faq */
+.faq__title {
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 43.35px;
+    color: #0D3A51;
+    letter-spacing: 0.6px;
+}
+
+.faq__wrapper {
+    margin: 31px 123px 48px 71px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq__questions {
+    width: 924.556px;
+}
+
+.faq__question {
+    margin-top: 23px;
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 29px 37.36px 26px 25px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 137, 138, 0.30);
+    background: #FFF;
+    overflow: hidden;
+}
+
+.faq__question-active {
+    height: auto;
+    padding-bottom: 67px;
+}
+
+.faq__question:first-child {
+    margin-top: 0;
+}
+
+.faq__question-title {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 20.25px;
+    line-height: 130%;
+    color: #112C3A;
+    text-transform: uppercase;
+}
+
+.faq__question-trigger {
+    cursor: pointer;
+}
+
+.faq__answer {
+    margin-top: 21px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 20.25px;
+    line-height: 130%;
+    color: #112C3A;
+}
+
+.faq__card {
+    width: 296.718px;
+    height: 377px;
+    padding: 22px 40.72px 33px 20px;
+    border-radius: 5px;
+    border: 0.8px solid rgba(0, 137, 138, 0.30);
+    background: #FFF;
+    box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.15);
+}
+
+.faq__card-title {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #0D3A51;
+    text-transform: uppercase;
+}
+
+.faq__card-descr {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 130%;
+    color: #0D3A51;
+}
+
+.faq__card-button {
+    margin-top: 52px;
+    width: 235px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #00898A;
+    background: #00898A;
+    box-shadow: 0px -5px 60px 0px rgba(0, 0, 0, 0.15);
+    /* Текст кнопки */
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.22px;
+    text-transform: uppercase;
+    color: #fff;
+}
