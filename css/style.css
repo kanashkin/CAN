@@ -12,6 +12,8 @@
 button {
     outline: none;
     border: none;
+    cursor: pointer;
+    transition: .4s ease;
 }
 
 .page__container {
@@ -64,6 +66,7 @@ button {
     font-size: 17.444px;
     line-height: 23.259px;
     color: #168457;
+    z-index: 2;
 }
 
 .header__tab-active {
@@ -88,6 +91,7 @@ button {
     justify-content: space-between;
     align-items: center;
     position: relative;
+    z-index: 2;
 }
 
 .header__card:nth-child(1),
@@ -139,8 +143,8 @@ button {
 .header__cat {
     position: absolute;
     right: 125px;
-    top: 61px;
-    z-index: 0;
+    bottom: 2px;
+    z-index: 1;
 }
 
 /* main */
@@ -219,7 +223,6 @@ button {
     border-radius: 5px;
     border: 1px solid #00898A;
     box-shadow: 0px -5px 60px 0px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
     /* Текст кнопки */
     font-weight: 600;
     font-size: 10px;
@@ -277,8 +280,6 @@ button {
     height: 41px;
     border-radius: 5px;
     border: 1px solid #168457;
-    cursor: pointer;
-    transition: .4s ease;
     /* Текст кнопки */
     font-family: 'Jost', sans-serif;
     font-weight: 600;
@@ -303,7 +304,6 @@ button {
     border-radius: 5px;
     border: 1px solid #1A465F;
     box-shadow: 0px -5px 60px 0px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
     /* Текст кнопки */
     font-family: 'Jost', sans-serif;
     font-weight: 600;
@@ -358,4 +358,59 @@ button {
 .button-green {
     border: 1px solid #168457;
     color: #168457;
+}
+
+.cards__block-3 {
+    margin-top: 30px;
+    padding: 0 123px 0 71px;
+}
+
+.card-bottom {
+    position: relative;
+    height: 200px;
+    padding: 20px 0 29px 23px;
+    border-radius: 5px;
+    border: 1px solid #168457;
+    background: #FFF;
+    box-shadow: 0px 14px 60px -20px rgba(108, 129, 171, 0.30);
+}
+
+.card__button-bottom {
+    margin-top: 13px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #168457;
+    background: rgba(0, 136, 137, 0.00);
+    box-shadow: 0px -5px 60px 0px rgba(0, 0, 0, 0.15);
+    /* Текст кнопки */
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    color: #168457;
+    text-transform: uppercase;
+}
+
+.card__button-bottom:hover {
+    border: 1px solid #168457;
+    background: #168457;
+    /* Текст кнопки */
+    color: #fff;
+}
+
+.card-bottom__house {
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+}
+
+.card-bottom__bank {
+    position: absolute;
+    top: 22px;
+    right: 23.7px;
+}
+
+.card-bottom__card {
+    position: absolute;
+    top: 33px;
+    right: 121px;
 }
